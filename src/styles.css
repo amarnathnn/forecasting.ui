@@ -1,0 +1,138 @@
+body {
+  overflow-x: hidden;
+}
+.upload{
+  font-weight:bold;
+  color:#28a745;
+  margin-left: 15px;
+  line-height: 36px;
+}
+.roleName {
+  font-weight: bolder;
+  font-family: Roboto-Regular;
+  color: #f8f9fa;
+  font-size: 14px;
+}
+.app-header.navbar .navbar-brand {
+  width: 162px;
+  height: 46;
+  background: url("../src/assets/img/COGNIZANT_LOGO_1.png") center no-repeat;
+  background-color: white;
+  color: white;
+}
+.navbar{
+  background-color:#5690d0;
+}
+.appTitle {
+  font-weight: bolder;
+  font-family: Roboto,Arial,sans-serif;
+  color: #17a2b8;
+  font-size: 22px;  
+}
+/*side bar style*/
+/* .sidebar-fixed .sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background-color: #23455e!important;
+}
+.app-body .sidebar {
+  -webkit-box-flex: 0;
+  flex: 0 0 200px;
+  -webkit-box-ordinal-group: 0;
+  order: -1;
+}
+.sidebar-fixed .sidebar .sidebar-nav {
+  height: calc(100vh - 55px);
+}
+.sidebar .sidebar-nav {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  width: 200px;
+}
+
+.sidebar .sidebar-nav::-webkit-scrollbar {
+  position: absolute;
+  width: 10px;
+  margin-left: -10px;
+  -webkit-appearance: none;
+}
+.sidebar .sidebar-nav::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #e6e5e5;
+  background-clip: content-box;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px 2px;
+}
+.sidebar .nav .nav-item.nav-dropdown.open {
+  background-color: #23455e;
+}
+
+.sidebar .nav .divider {
+  border-bottom: 1px solid #1a3b53;
+}
+
+.sidebar .nav .nav-item .nav-link, .sidebar .nav .nav-item .navbar .dropdown-toggle, .navbar .sidebar .nav .nav-item .dropdown-toggle {
+  color: #fff;
+}
+/*.sidebar .nav .nav-item ul li a{
+    margin-left:24px;
+}*/
+.sidebar .nav .nav-item .nav-link:hover, .sidebar .nav .nav-item .navbar .dropdown-toggle:hover, .navbar .sidebar .nav .nav-item .dropdown-toggle:hover {
+  background: #f26f33 !important;
+}
+
+.sidebar .nav .nav-item .nav-link.active, .sidebar .nav .nav-item .navbar .active.dropdown-toggle, .navbar .sidebar .nav .nav-item .active.dropdown-toggle {
+  background: #f26f33;
+}
+/*header style*/
+
+.app-header.navbar .navbar-toggler {
+  color: #f26f33;
+} */
+
+
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

@@ -1,0 +1,43 @@
+
+<!-- <div class="card" style="width:18rem;">
+  <h5 class="card-header">Featured</h5>
+  <div class="card-body">
+    <div class="row pt-3">
+      <div class="col-md-4"><input type="file" (change) ="onUpload($event)" > </div>
+      <div class="col-md-2"><button class="btn btn-primary" (click)="uploadData()" >Upload</button></div>
+    </div>
+  </div>
+</div> -->
+<div class="container pt-3" >
+  <!-- Outer Row -->  
+       <div class="card" style="width:68rem;border:1px blue solid;" >
+        <div class="card-body" >
+          <!-- Nested Row within Card Body -->                     
+            <div class="row" >
+              <div class="col-md-3" >
+                <input type="file" #file placeholder="Choose file">              
+              </div>
+              <div class="col-md-2">
+                <button type="button" class="btn btn-success" (click)="uploadFile(file.files)">Upload File</button>
+              </div>
+              <div class="col-md-2">
+                <div ><button class="btn btn-primary" (click)="generateForecastingData()" >Get Forecasting</button></div>             
+              </div>
+            <div class="col-md-2">
+              <div><button class="btn btn-primary" (click)="generateBillingData()" >Get Actual Billing</button>
+              </div>            
+          </div>                                
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <span class="upload" *ngIf="progress > 0">
+                {{progress}}%
+              </span>
+              <span class="upload" *ngIf="message">
+                {{message}}
+              </span>
+            </div>
+          </div> 
+        </div>
+      </div>   
+</div>

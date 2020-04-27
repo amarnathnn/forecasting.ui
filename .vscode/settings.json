@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8a9a4c1c-ea49-47af-a059-d790e9782847/resourceGroups/PragmaticSolutions/providers/Microsoft.Web/sites/forecastingbillingui",
+    "appService.deploySubpath": "dist\\ForecastingBilling"
+}

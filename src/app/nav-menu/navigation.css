@@ -1,0 +1,53 @@
+
+/*side bar style*/
+.sidebar .nav .nav-item.nav-dropdown.open {
+    background-color: #23455e;
+  }
+  
+  .sidebar .nav .divider {
+    border-bottom: 1px solid #1a3b53;
+  }
+  
+  .sidebar .nav .nav-item .nav-link, .sidebar .nav .nav-item .navbar .dropdown-toggle, .navbar .sidebar .nav .nav-item .dropdown-toggle {
+    color: #fff;
+  }
+  /*.sidebar .nav .nav-item ul li a{
+      margin-left:24px;
+  }*/
+  .sidebar .nav .nav-item .nav-link:hover, .sidebar .nav .nav-item .navbar .dropdown-toggle:hover, .navbar .sidebar .nav .nav-item .dropdown-toggle:hover {
+    background: #f26f33 !important;
+  }
+  
+  .sidebar .nav .nav-item .nav-link.active, .sidebar .nav .nav-item .navbar .active.dropdown-toggle, .navbar .sidebar .nav .nav-item .active.dropdown-toggle {
+    background: #f26f33;
+  }
+  /*header style*/
+  
+  .app-header.navbar .navbar-toggler {
+    color: #f26f33;
+  }
+  
+  .searchBarinpt input {
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .searchBarinpt span {
+    border-radius: 0px 5px 5px 0px;
+    background-color: #fff;
+  }
+  
+  .appTitle {
+    font-weight: bolder;
+    font-family: Roboto,Arial,sans-serif;
+    color: rgba(156,156,156,1);
+    font-size: 22px;
+    //color: #151b1e
+  }
+  
+  .roleName {
+    font-weight: bolder;
+    font-family: Roboto-Regular;
+    color: #1a3b53;
+    font-size: 14px;
+  }
+  
